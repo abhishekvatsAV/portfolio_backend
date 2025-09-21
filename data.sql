@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tips (
+  id UUID,
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
